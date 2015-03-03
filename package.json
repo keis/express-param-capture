@@ -1,0 +1,31 @@
+{
+  "name": "express-param-capture",
+  "description": "process request parameters with regexp",
+  "version": "0.0.0",
+  "main": "./lib/param-capture",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keis/express-param-capture.git"
+  },
+  "author": "David Keijser <keijser@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "lib/param-capture.js"
+  ],
+  "scripts": {
+    "test": "mocha --require test/bootstrap.js --compilers coffee:coffee-script/register --recursive test/unit",
+    "coverage": "istanbul cover _mocha --report lcovonly -- --require test/bootstrap.js --compilers coffee:coffee-script/register --recursive test/unit",
+    "billom": "billom package.json \"$npm_package_name\" > package.html"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "coffee-script": "^1.7.1",
+    "coveralls": "^2.11.1",
+    "express": "^4.12.2",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.0.1",
+    "sinon": "^1.10.0",
+    "billom": "^1.0.0"
+  }
+}
