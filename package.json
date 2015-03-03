@@ -1,7 +1,7 @@
 {
   "name": "express-param-capture",
   "description": "process request parameters with regexp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./lib/param-capture",
   "repository": {
     "type": "git",
