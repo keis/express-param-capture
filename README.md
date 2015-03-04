@@ -22,6 +22,6 @@ deprecated.
     });
 
 
-[npm-image]: https://img.shields.io/npm/v/exress-param-capture.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/express-param-capture.svg?style=flat
 [travis-image]: https://img.shields.io/travis/keis/express-param-capture.svg?style=flat
 [coveralls-image]: https://img.shields.io/coveralls/keis/express-param-capture.svg?style=flat
